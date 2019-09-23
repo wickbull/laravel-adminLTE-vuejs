@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a81ea5a73ebc29fdd013d76177a616e",
+    "content-hash": "7089eb7bf8cf1bcd0a330f29129d504b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2835,6 +2835,39 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
+            "name": "vikioki/language-tool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vikioki/language-tool.git",
+                "reference": "0a372ae349bbeb515ac79cd14fe8ec46921be55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vikioki/language-tool/zipball/0a372ae349bbeb515ac79cd14fe8ec46921be55f",
+                "reference": "0a372ae349bbeb515ac79cd14fe8ec46921be55f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vikioki\\Lang\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "vikioki",
+                    "email": "vikiokina@gmail.com"
+                }
+            ],
+            "description": "Package for laravel dynamic language",
+            "time": "2019-09-20T23:43:10+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.0",
             "source": {
@@ -4876,7 +4909,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "vikioki/language-tool": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

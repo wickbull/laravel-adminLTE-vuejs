@@ -2297,6 +2297,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 // import ModalComponent from '../Modal/ModalComponent.vue';
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: [],
@@ -49122,8 +49123,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/maxboglachev/Documents/projects/admin/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/maxboglachev/Documents/projects/admin/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/swipeks/Documents/my/laravel-adminLTE-vuejs/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/swipeks/Documents/my/laravel-adminLTE-vuejs/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

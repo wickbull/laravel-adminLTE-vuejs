@@ -4922,6 +4922,41 @@
         "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
     },
     {
+        "name": "vikioki/language-tool",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vikioki/language-tool.git",
+            "reference": "0a372ae349bbeb515ac79cd14fe8ec46921be55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vikioki/language-tool/zipball/0a372ae349bbeb515ac79cd14fe8ec46921be55f",
+            "reference": "0a372ae349bbeb515ac79cd14fe8ec46921be55f",
+            "shasum": ""
+        },
+        "time": "2019-09-20T23:43:10+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Vikioki\\Lang\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "vikioki",
+                "email": "vikiokina@gmail.com"
+            }
+        ],
+        "description": "Package for laravel dynamic language"
+    },
+    {
         "name": "vlucas/phpdotenv",
         "version": "v3.6.0",
         "version_normalized": "3.6.0.0",
